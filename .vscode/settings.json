@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./file_operations"]
+}
