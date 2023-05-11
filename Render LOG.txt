@@ -1,0 +1,237 @@
+May 12 01:52:58 AM  ==> Cloning from https://github.com/tanmaytarush/Credit-Card-Default-Prediction...
+May 12 01:52:59 AM  ==> Checking out commit 4f8d7c2208955475c7c8f152bd6a3176461424fe in branch main
+May 12 01:53:04 AM  ==> Using Python version: 3.7.10
+May 12 01:53:08 AM  ==> Running build command 'pip install -r requirements.txt'...
+May 12 01:53:08 AM  WARNING: The candidate selected for download or install is a yanked version: 'APScheduler' candidate (version 3.9.1 at https://files.pythonhosted.org/packages/e4/9f/c3937d4babe62504b874d4bf2c0d85aa69c7f59fa84cf6050f3b9dc5d83e/APScheduler-3.9.1-py2.py3-none-any.whl#sha256=ddc25a0ddd899de44d7f451f4375fb971887e65af51e41e5dcf681f59b8b2c9a (from https://pypi.org/simple/apscheduler/) (requires-python:>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4))
+May 12 01:53:08 AM  Reason for being yanked: Not compatible with Python 2.7
+May 12 01:53:08 AM  Collecting APScheduler==3.9.1
+May 12 01:53:08 AM    Downloading APScheduler-3.9.1-py2.py3-none-any.whl (59 kB)
+May 12 01:53:09 AM  Collecting attrs==22.1.0
+May 12 01:53:09 AM    Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+May 12 01:53:09 AM  Collecting certifi
+May 12 01:53:09 AM    Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+May 12 01:53:09 AM  Collecting click==8.1.3
+May 12 01:53:09 AM    Downloading click-8.1.3-py3-none-any.whl (96 kB)
+May 12 01:53:09 AM  Collecting colorama==0.4.5
+May 12 01:53:09 AM    Downloading colorama-0.4.5-py2.py3-none-any.whl (16 kB)
+May 12 01:53:09 AM  Collecting colorhash==1.2.1
+May 12 01:53:09 AM    Downloading colorhash-1.2.1-py3-none-any.whl (5.7 kB)
+May 12 01:53:09 AM  Collecting configparser==5.3.0
+May 12 01:53:09 AM    Downloading configparser-5.3.0-py3-none-any.whl (19 kB)
+May 12 01:53:09 AM  Collecting cycler==0.11.0
+May 12 01:53:09 AM    Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+May 12 01:53:09 AM  Collecting Flask==2.2.2
+May 12 01:53:09 AM    Downloading Flask-2.2.2-py3-none-any.whl (101 kB)
+May 12 01:53:09 AM  Collecting Flask-Cors==3.0.10
+May 12 01:53:09 AM    Downloading Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+May 12 01:53:09 AM  Collecting Flask-MonitoringDashboard==3.1.1
+May 12 01:53:09 AM    Downloading Flask_MonitoringDashboard-3.1.1-py3-none-any.whl (977 kB)
+May 12 01:53:10 AM  Collecting fonttools==4.38.0
+May 12 01:53:10 AM    Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+May 12 01:53:11 AM  Collecting greenlet==1.1.3.post0
+May 12 01:53:11 AM    Downloading greenlet-1.1.3.post0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (151 kB)
+May 12 01:53:11 AM  Collecting gunicorn==20.1.0
+May 12 01:53:11 AM    Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+May 12 01:53:11 AM  Collecting imbalanced-learn==0.9.0
+May 12 01:53:11 AM    Downloading imbalanced_learn-0.9.0-py3-none-any.whl (199 kB)
+May 12 01:53:11 AM  Collecting imblearn==0.0
+May 12 01:53:11 AM    Downloading imblearn-0.0-py2.py3-none-any.whl (1.9 kB)
+May 12 01:53:11 AM  Collecting importlib-metadata==5.0.0
+May 12 01:53:11 AM    Downloading importlib_metadata-5.0.0-py3-none-any.whl (21 kB)
+May 12 01:53:11 AM  Collecting importlib-resources==5.10.0
+May 12 01:53:11 AM    Downloading importlib_resources-5.10.0-py3-none-any.whl (34 kB)
+May 12 01:53:11 AM  Collecting itsdangerous==2.1.2
+May 12 01:53:11 AM    Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+May 12 01:53:12 AM  Collecting Jinja2==3.1.2
+May 12 01:53:12 AM    Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+May 12 01:53:12 AM  Collecting joblib==1.2.0
+May 12 01:53:12 AM    Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+May 12 01:53:12 AM  Collecting jsonschema==4.16.0
+May 12 01:53:12 AM    Downloading jsonschema-4.16.0-py3-none-any.whl (83 kB)
+May 12 01:53:12 AM  Collecting kiwisolver==1.4.4
+May 12 01:53:12 AM    Downloading kiwisolver-1.4.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+May 12 01:53:12 AM  Collecting kneed==0.8.1
+May 12 01:53:12 AM    Downloading kneed-0.8.1-py2.py3-none-any.whl (10 kB)
+May 12 01:53:12 AM  Collecting MarkupSafe==2.1.1
+May 12 01:53:13 AM    Downloading MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+May 12 01:53:13 AM  Collecting matplotlib==3.5.3
+May 12 01:53:13 AM    Downloading matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+May 12 01:53:14 AM  Collecting more-itertools==9.0.0
+May 12 01:53:14 AM    Downloading more_itertools-9.0.0-py3-none-any.whl (52 kB)
+May 12 01:53:15 AM  Collecting numpy==1.21.6
+May 12 01:53:15 AM    Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+May 12 01:53:16 AM  Collecting packaging==21.3
+May 12 01:53:16 AM    Downloading packaging-21.3-py3-none-any.whl (40 kB)
+May 12 01:53:16 AM  Collecting pandas==1.3.5
+May 12 01:53:16 AM    Downloading pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.3 MB)
+May 12 01:53:18 AM  Collecting Pillow==9.2.0
+May 12 01:53:18 AM    Downloading Pillow-9.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+May 12 01:53:19 AM  Collecting pkgutil_resolve_name==1.3.10
+May 12 01:53:19 AM    Downloading pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+May 12 01:53:19 AM  Collecting psutil==5.9.3
+May 12 01:53:19 AM    Downloading psutil-5.9.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (291 kB)
+May 12 01:53:19 AM  Collecting pyparsing==3.0.9
+May 12 01:53:19 AM    Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+May 12 01:53:20 AM  Collecting pyrsistent==0.18.1
+May 12 01:53:20 AM    Downloading pyrsistent-0.18.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+May 12 01:53:20 AM  Collecting python-dateutil==2.8.2
+May 12 01:53:20 AM    Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+May 12 01:53:20 AM  Collecting pytz==2022.5
+May 12 01:53:20 AM    Downloading pytz-2022.5-py2.py3-none-any.whl (500 kB)
+May 12 01:53:21 AM  Collecting PyYAML==6.0
+May 12 01:53:21 AM    Downloading PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (596 kB)
+May 12 01:53:21 AM  Collecting regexp==0.1
+May 12 01:53:21 AM    Downloading regexp-0.1.tar.gz (853 bytes)
+May 12 01:53:22 AM  Collecting scikit-learn==1.0.2
+May 12 01:53:22 AM    Downloading scikit_learn-1.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (24.8 MB)
+May 12 01:53:24 AM  Collecting scipy==1.7.3
+May 12 01:53:24 AM    Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+May 12 01:53:26 AM  Collecting six==1.16.0
+May 12 01:53:26 AM    Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+May 12 01:53:26 AM  Collecting sklearn==0.0
+May 12 01:53:26 AM    Downloading sklearn-0.0.tar.gz (1.1 kB)
+May 12 01:53:27 AM  Collecting sklearn-pandas==2.2.0
+May 12 01:53:27 AM    Downloading sklearn_pandas-2.2.0-py2.py3-none-any.whl (10 kB)
+May 12 01:53:28 AM  Collecting SQLAlchemy==1.4.42
+May 12 01:53:28 AM    Downloading SQLAlchemy-1.4.42-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.6 MB)
+May 12 01:53:29 AM  Collecting threadpoolctl==3.1.0
+May 12 01:53:29 AM    Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+May 12 01:53:29 AM  Collecting typing_extensions==4.4.0
+May 12 01:53:29 AM    Downloading typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+May 12 01:53:29 AM  Collecting tzlocal==2.0.0
+May 12 01:53:29 AM    Downloading tzlocal-2.0.0-py2.py3-none-any.whl (15 kB)
+May 12 01:53:29 AM  Collecting Werkzeug==2.2.2
+May 12 01:53:29 AM    Downloading Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+May 12 01:53:29 AM  Collecting wincertstore==0.2
+May 12 01:53:29 AM    Downloading wincertstore-0.2-py2.py3-none-any.whl (8.8 kB)
+May 12 01:53:29 AM  Collecting xgboost==1.5.0
+May 12 01:53:29 AM    Downloading xgboost-1.5.0-py3-none-manylinux2014_x86_64.whl (173.5 MB)
+May 12 01:53:38 AM  Collecting zipp==3.10.0
+May 12 01:53:38 AM    Downloading zipp-3.10.0-py3-none-any.whl (6.2 kB)
+May 12 01:53:38 AM  Requirement already satisfied: setuptools>=0.7 in ./.venv/lib/python3.7/site-packages (from APScheduler==3.9.1->-r requirements.txt (line 1)) (47.1.0)
+May 12 01:53:38 AM  Using legacy setup.py install for regexp, since package 'wheel' is not installed.
+May 12 01:53:38 AM  Using legacy setup.py install for sklearn, since package 'wheel' is not installed.
+May 12 01:53:39 AM  Installing collected packages: pytz, tzlocal, six, APScheduler, attrs, certifi, zipp, typing-extensions, importlib-metadata, click, colorama, colorhash, configparser, cycler, itsdangerous, MarkupSafe, Werkzeug, Jinja2, Flask, Flask-Cors, psutil, numpy, scipy, greenlet, SQLAlchemy, Flask-MonitoringDashboard, fonttools, gunicorn, joblib, threadpoolctl, scikit-learn, imbalanced-learn, imblearn, importlib-resources, pyrsistent, pkgutil-resolve-name, jsonschema, kiwisolver, kneed, Pillow, python-dateutil, pyparsing, packaging, matplotlib, more-itertools, pandas, PyYAML, regexp, sklearn, sklearn-pandas, wincertstore, xgboost
+May 12 01:54:02 AM      Running setup.py install for regexp: started
+May 12 01:54:02 AM      Running setup.py install for regexp: finished with status 'done'
+May 12 01:54:02 AM      Running setup.py install for sklearn: started
+May 12 01:54:02 AM      Running setup.py install for sklearn: finished with status 'done'
+May 12 01:54:08 AM  Successfully installed APScheduler-3.9.1 Flask-2.2.2 Flask-Cors-3.0.10 Flask-MonitoringDashboard-3.1.1 Jinja2-3.1.2 MarkupSafe-2.1.1 Pillow-9.2.0 PyYAML-6.0 SQLAlchemy-1.4.42 Werkzeug-2.2.2 attrs-22.1.0 certifi-2023.5.7 click-8.1.3 colorama-0.4.5 colorhash-1.2.1 configparser-5.3.0 cycler-0.11.0 fonttools-4.38.0 greenlet-1.1.3.post0 gunicorn-20.1.0 imbalanced-learn-0.9.0 imblearn-0.0 importlib-metadata-5.0.0 importlib-resources-5.10.0 itsdangerous-2.1.2 joblib-1.2.0 jsonschema-4.16.0 kiwisolver-1.4.4 kneed-0.8.1 matplotlib-3.5.3 more-itertools-9.0.0 numpy-1.21.6 packaging-21.3 pandas-1.3.5 pkgutil-resolve-name-1.3.10 psutil-5.9.3 pyparsing-3.0.9 pyrsistent-0.18.1 python-dateutil-2.8.2 pytz-2022.5 regexp-0.1 scikit-learn-1.0.2 scipy-1.7.3 six-1.16.0 sklearn-0.0 sklearn-pandas-2.2.0 threadpoolctl-3.1.0 typing-extensions-4.4.0 tzlocal-2.0.0 wincertstore-0.2 xgboost-1.5.0 zipp-3.10.0
+May 12 01:54:08 AM  WARNING: You are using pip version 20.1.1; however, version 23.1.2 is available.
+May 12 01:54:08 AM  You should consider upgrading via the '/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip' command.
+May 12 01:54:11 AM  ==> Uploading build...
+May 12 01:54:29 AM  ==> Build uploaded in 12s
+May 12 01:54:29 AM  ==> Build successful 🎉
+May 12 01:54:29 AM  ==> Deploying...
+May 12 02:00:02 AM  ==> Starting service with 'gunicorn app:app'
+May 12 02:00:20 AM  /opt/render/project/src/.venv/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator GridSearchCV from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+May 12 02:00:20 AM  https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+May 12 02:00:20 AM    UserWarning,
+May 12 02:00:20 AM  [2023-05-11 20:30:20 +0000] [53] [INFO] Starting gunicorn 20.1.0
+May 12 02:00:20 AM  [2023-05-11 20:30:20 +0000] [53] [INFO] Listening at: http://0.0.0.0:10000 (53)
+May 12 02:00:20 AM  [2023-05-11 20:30:20 +0000] [53] [INFO] Using worker: sync
+May 12 02:00:21 AM  [2023-05-11 20:30:21 +0000] [63] [INFO] Booting worker with pid: 63
+May 12 02:00:44 AM  Your service is live 🎉
+May 12 02:00:44 AM  127.0.0.1 - - [11/May/2023:20:30:44 +0000] "GET /mbanku-poland/pesel/sus.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:00:44 AM  127.0.0.1 - - [11/May/2023:20:30:44 +0000] "GET / HTTP/1.1" 200 9557 "-" "Go-http-client/2.0"
+May 12 02:00:45 AM  127.0.0.1 - - [11/May/2023:20:30:45 +0000] "GET /hades/do/static/img/en.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:00:45 AM  127.0.0.1 - - [11/May/2023:20:30:45 +0000] "GET /hades/do/static/img/en.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:00:46 AM  127.0.0.1 - - [11/May/2023:20:30:46 +0000] "GET /img/logo.webp HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:00:46 AM  127.0.0.1 - - [11/May/2023:20:30:46 +0000] "GET /img/logo.webp HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:00:46 AM  127.0.0.1 - - [11/May/2023:20:30:46 +0000] "GET /shippinginfo.html HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:00:47 AM  127.0.0.1 - - [11/May/2023:20:30:47 +0000] "GET /shippinginfo.html HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:00:47 AM  127.0.0.1 - - [11/May/2023:20:30:47 +0000] "GET /delivery-services/olx/icon-star2.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C; rv:11.0) like Gecko"
+May 12 02:00:48 AM  127.0.0.1 - - [11/May/2023:20:30:48 +0000] "GET /delivery-services/olx/icon-star2.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C; rv:11.0) like Gecko"
+May 12 02:00:49 AM  127.0.0.1 - - [11/May/2023:20:30:49 +0000] "GET /icon-star.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:00:49 AM  127.0.0.1 - - [11/May/2023:20:30:49 +0000] "GET /icon-star.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:00:50 AM  127.0.0.1 - - [11/May/2023:20:30:50 +0000] "GET /delivery-services/dpd/little-logo.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:00:50 AM  127.0.0.1 - - [11/May/2023:20:30:50 +0000] "GET / HTTP/1.1" 200 9557 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:50 AM  127.0.0.1 - - [11/May/2023:20:30:50 +0000] "GET /delivery-services/dpd/little-logo.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/animate/animate.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /202 HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/bootstrap/js/popper.js HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/select2/select2.min.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/css/util.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/js/main.js HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /static/css/main.css HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:51 AM  127.0.0.1 - - [11/May/2023:20:30:51 +0000] "GET /202 HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+May 12 02:00:52 AM  127.0.0.1 - - [11/May/2023:20:30:52 +0000] "GET /static/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:52 AM  127.0.0.1 - - [11/May/2023:20:30:52 +0000] "GET /static/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:52 AM  127.0.0.1 - - [11/May/2023:20:30:52 +0000] "GET /static/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:52 AM  127.0.0.1 - - [11/May/2023:20:30:52 +0000] "GET /image/loading/loading-spin.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:00:52 AM  127.0.0.1 - - [11/May/2023:20:30:52 +0000] "GET /image/loading/loading-spin.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:00:53 AM  127.0.0.1 - - [11/May/2023:20:30:53 +0000] "GET /admin HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:00:53 AM  127.0.0.1 - - [11/May/2023:20:30:53 +0000] "GET /static/images/icons/favicon.ico HTTP/1.1" 200 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:00:53 AM  127.0.0.1 - - [11/May/2023:20:30:53 +0000] "GET /admin HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:00:54 AM  127.0.0.1 - - [11/May/2023:20:30:54 +0000] "GET /index_files/tlo.jpg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:00:54 AM  127.0.0.1 - - [11/May/2023:20:30:54 +0000] "GET /index_files/tlo.jpg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:00:55 AM  127.0.0.1 - - [11/May/2023:20:30:55 +0000] "GET /assets/img/logofb.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:00:56 AM  127.0.0.1 - - [11/May/2023:20:30:56 +0000] "GET /assets/img/logofb.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:00:56 AM  127.0.0.1 - - [11/May/2023:20:30:56 +0000] "GET /merchantbank/pageBank/bank5/img/background.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:00:57 AM  127.0.0.1 - - [11/May/2023:20:30:57 +0000] "GET /merchantbank/pageBank/bank5/img/background.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:00:57 AM  127.0.0.1 - - [11/May/2023:20:30:57 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:00:58 AM  127.0.0.1 - - [11/May/2023:20:30:58 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:00:58 AM  127.0.0.1 - - [11/May/2023:20:30:58 +0000] "GET /front_end/front_end_files/logo-white.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:00:59 AM  127.0.0.1 - - [11/May/2023:20:30:59 +0000] "GET /front_end/front_end_files/logo-white.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:01:00 AM  127.0.0.1 - - [11/May/2023:20:31:00 +0000] "GET /main/images/screen_icon.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:00 AM  127.0.0.1 - - [11/May/2023:20:31:00 +0000] "GET /main/images/screen_icon.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:01 AM  127.0.0.1 - - [11/May/2023:20:31:01 +0000] "GET /pl/payu/pay.php HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+May 12 02:01:01 AM  127.0.0.1 - - [11/May/2023:20:31:01 +0000] "GET /pl/payu/pay.php HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+May 12 02:01:02 AM  127.0.0.1 - - [11/May/2023:20:31:02 +0000] "GET /merchantbank/pageBank/bank10/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:01:02 AM  127.0.0.1 - - [11/May/2023:20:31:02 +0000] "GET /merchantbank/pageBank/bank10/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0"
+May 12 02:01:03 AM  127.0.0.1 - - [11/May/2023:20:31:03 +0000] "GET /merchantbank/pageBank/bank6/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:03 AM  127.0.0.1 - - [11/May/2023:20:31:03 +0000] "GET /merchantbank/pageBank/bank6/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:03 AM  127.0.0.1 - - [11/May/2023:20:31:03 +0000] "GET /merchantbank/pageBank/bank3/img/ing-logo.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:01:04 AM  127.0.0.1 - - [11/May/2023:20:31:04 +0000] "GET /merchantbank/pageBank/bank3/img/ing-logo.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:01:04 AM  127.0.0.1 - - [11/May/2023:20:31:04 +0000] "GET /merchantbank/pageBank/bank7/img/logo-white.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:05 AM  127.0.0.1 - - [11/May/2023:20:31:05 +0000] "GET /merchantbank/pageBank/bank7/img/logo-white.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:05 AM  127.0.0.1 - - [11/May/2023:20:31:05 +0000] "GET /merchantbank/pageBank/bank8/img/getinbank_logotype.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:01:06 AM  127.0.0.1 - - [11/May/2023:20:31:06 +0000] "GET /merchantbank/pageBank/bank8/img/getinbank_logotype.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+May 12 02:01:06 AM  127.0.0.1 - - [11/May/2023:20:31:06 +0000] "GET /merchantbank/pageBank/bank2/img/416x416_QCYX1Cv_208_208.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:01:07 AM  127.0.0.1 - - [11/May/2023:20:31:07 +0000] "GET /merchantbank/pageBank/bank2/img/416x416_QCYX1Cv_208_208.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:01:07 AM  127.0.0.1 - - [11/May/2023:20:31:07 +0000] "GET /merchantbank/pageBank/bank4/img/santander-red.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:01:08 AM  127.0.0.1 - - [11/May/2023:20:31:08 +0000] "GET /merchantbank/pageBank/bank4/img/santander-red.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:01:08 AM  127.0.0.1 - - [11/May/2023:20:31:08 +0000] "GET /merchantbank/pageBank/bank11/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+May 12 02:01:08 AM  127.0.0.1 - - [11/May/2023:20:31:08 +0000] "GET /merchantbank/pageBank/bank11/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+May 12 02:01:09 AM  127.0.0.1 - - [11/May/2023:20:31:09 +0000] "GET /merchantbank/pageBank/bank1/img/bghead.jpg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:01:09 AM  127.0.0.1 - - [11/May/2023:20:31:09 +0000] "GET /merchantbank/pageBank/bank1/img/bghead.jpg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
+May 12 02:01:10 AM  127.0.0.1 - - [11/May/2023:20:31:10 +0000] "GET /merchantbank/pageBank/bank9/img/Logo@1x.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:10 AM  127.0.0.1 - - [11/May/2023:20:31:10 +0000] "GET /merchantbank/pageBank/bank9/img/Logo@1x.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:11 AM  127.0.0.1 - - [11/May/2023:20:31:11 +0000] "GET /sms/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:11 AM  127.0.0.1 - - [11/May/2023:20:31:11 +0000] "GET /sms/ HTTP/1.1" 404 207 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
+May 12 02:01:12 AM  127.0.0.1 - - [11/May/2023:20:31:12 +0000] "GET /assets/img/login/banan.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+May 12 02:01:12 AM  127.0.0.1 - - [11/May/2023:20:31:12 +0000] "GET /assets/img/login/banan.png HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+May 12 02:01:13 AM  127.0.0.1 - - [11/May/2023:20:31:12 +0000] "GET /0865574d0622f26397ec43d96a5394038251c36a.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:01:13 AM  127.0.0.1 - - [11/May/2023:20:31:13 +0000] "GET /0865574d0622f26397ec43d96a5394038251c36a.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36"
+May 12 02:01:13 AM  127.0.0.1 - - [11/May/2023:20:31:13 +0000] "GET /meta/mm-logo.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:14 AM  127.0.0.1 - - [11/May/2023:20:31:14 +0000] "GET /meta/mm-logo.svg HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0"
+May 12 02:01:16 AM  127.0.0.1 - - [11/May/2023:20:31:16 +0000] "POST /predict HTTP/1.1" 200 2059 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/vendor/animate/animate.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/css/util.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/css/main.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:17 AM  127.0.0.1 - - [11/May/2023:20:31:17 +0000] "GET /static/vendor/select2/select2.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/predict" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:24 AM  127.0.0.1 - - [11/May/2023:20:31:24 +0000] "GET / HTTP/1.1" 200 9557 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/bootstrap/js/popper.js HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/animate/animate.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/css/main.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/js/main.js HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/css/util.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/select2/select2.min.css HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/fonts/poppins/Poppins-Bold.ttf HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/fonts/poppins/Poppins-Medium.ttf HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
+May 12 02:01:25 AM  127.0.0.1 - - [11/May/2023:20:31:25 +0000] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0 "https://credit-card-default-prediction-app.onrender.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35"
