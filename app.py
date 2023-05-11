@@ -6,7 +6,7 @@ import pickle
 
 #model = joblib.load(model_path)
 # Use PICKLE INSTEAD
-model = pickle.load(open('XGBOOST_tuned.s','rb'))
+model = pickle.load(open('XGBOOST_tuned.pkl','rb'))
 
 
 app = Flask(__name__)
