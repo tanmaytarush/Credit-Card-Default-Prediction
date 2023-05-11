@@ -2,7 +2,7 @@
 
 <h4>The aim of the project was to analyze the dataset and create an ML model that would predict the Credit Card Defaulter. We have used Python Libraries for data analysis and model creation (backend) and HTML and CSS for creating Web UI for the project.</h4>
 
-<h4>You can see and use our project live on : LINK TO WEB APP</h4>
+<h4>You can see and use our project live on : https://credit-card-default-prediction-app.onrender.com/</h4>
 
 <br>
 
